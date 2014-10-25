@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712B8BCF19FBA21E000F9325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B8BCE19FBA21E000F9325 /* main.m */; };
+		712B8BD219FBA21E000F9325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B8BD119FBA21E000F9325 /* AppDelegate.m */; };
+		712B8BD519FBA21E000F9325 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B8BD419FBA21E000F9325 /* FirstViewController.m */; };
+		712B8BD819FBA21E000F9325 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B8BD719FBA21E000F9325 /* SecondViewController.m */; };
+		712B8BDB19FBA21E000F9325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712B8BD919FBA21E000F9325 /* Main.storyboard */; };
+		712B8BDD19FBA21E000F9325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712B8BDC19FBA21E000F9325 /* Images.xcassets */; };
+		712B8BE019FBA21E000F9325 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712B8BDE19FBA21E000F9325 /* LaunchScreen.xib */; };
+		712B8BEC19FBA21E000F9325 /* JLY_BaiduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B8BEB19FBA21E000F9325 /* JLY_BaiduTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		712B8BE619FBA21E000F9325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 712B8BC119FBA21E000F9325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712B8BC819FBA21E000F9325;
+			remoteInfo = "JLY-Baidu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		712B8BC919FBA21E000F9325 /* JLY-Baidu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JLY-Baidu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		712B8BCD19FBA21E000F9325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712B8BCE19FBA21E000F9325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		712B8BD019FBA21E000F9325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		712B8BD119FBA21E000F9325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		712B8BD319FBA21E000F9325 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		712B8BD419FBA21E000F9325 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		712B8BD619FBA21E000F9325 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		712B8BD719FBA21E000F9325 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		712B8BDA19FBA21E000F9325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		712B8BDC19FBA21E000F9325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		712B8BDF19FBA21E000F9325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		712B8BE519FBA21E000F9325 /* JLY-BaiduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLY-BaiduTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		712B8BEA19FBA21E000F9325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712B8BEB19FBA21E000F9325 /* JLY_BaiduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLY_BaiduTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		712B8BC619FBA21E000F9325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B8BE219FBA21E000F9325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		712B8BC019FBA21E000F9325 = {
+			isa = PBXGroup;
+			children = (
+				712B8BCB19FBA21E000F9325 /* JLY-Baidu */,
+				712B8BE819FBA21E000F9325 /* JLY-BaiduTests */,
+				712B8BCA19FBA21E000F9325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		712B8BCA19FBA21E000F9325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				712B8BC919FBA21E000F9325 /* JLY-Baidu.app */,
+				712B8BE519FBA21E000F9325 /* JLY-BaiduTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		712B8BCB19FBA21E000F9325 /* JLY-Baidu */ = {
+			isa = PBXGroup;
+			children = (
+				712B8BD019FBA21E000F9325 /* AppDelegate.h */,
+				712B8BD119FBA21E000F9325 /* AppDelegate.m */,
+				712B8BD319FBA21E000F9325 /* FirstViewController.h */,
+				712B8BD419FBA21E000F9325 /* FirstViewController.m */,
+				712B8BD619FBA21E000F9325 /* SecondViewController.h */,
+				712B8BD719FBA21E000F9325 /* SecondViewController.m */,
+				712B8BD919FBA21E000F9325 /* Main.storyboard */,
+				712B8BDC19FBA21E000F9325 /* Images.xcassets */,
+				712B8BDE19FBA21E000F9325 /* LaunchScreen.xib */,
+				712B8BCC19FBA21E000F9325 /* Supporting Files */,
+			);
+			path = "JLY-Baidu";
+			sourceTree = "<group>";
+		};
+		712B8BCC19FBA21E000F9325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				712B8BCD19FBA21E000F9325 /* Info.plist */,
+				712B8BCE19FBA21E000F9325 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		712B8BE819FBA21E000F9325 /* JLY-BaiduTests */ = {
+			isa = PBXGroup;
+			children = (
+				712B8BEB19FBA21E000F9325 /* JLY_BaiduTests.m */,
+				712B8BE919FBA21E000F9325 /* Supporting Files */,
+			);
+			path = "JLY-BaiduTests";
+			sourceTree = "<group>";
+		};
+		712B8BE919FBA21E000F9325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				712B8BEA19FBA21E000F9325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		712B8BC819FBA21E000F9325 /* JLY-Baidu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712B8BEF19FBA21E000F9325 /* Build configuration list for PBXNativeTarget "JLY-Baidu" */;
+			buildPhases = (
+				712B8BC519FBA21E000F9325 /* Sources */,
+				712B8BC619FBA21E000F9325 /* Frameworks */,
+				712B8BC719FBA21E000F9325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLY-Baidu";
+			productName = "JLY-Baidu";
+			productReference = 712B8BC919FBA21E000F9325 /* JLY-Baidu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		712B8BE419FBA21E000F9325 /* JLY-BaiduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712B8BF219FBA21E000F9325 /* Build configuration list for PBXNativeTarget "JLY-BaiduTests" */;
+			buildPhases = (
+				712B8BE119FBA21E000F9325 /* Sources */,
+				712B8BE219FBA21E000F9325 /* Frameworks */,
+				712B8BE319FBA21E000F9325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				712B8BE719FBA21E000F9325 /* PBXTargetDependency */,
+			);
+			name = "JLY-BaiduTests";
+			productName = "JLY-BaiduTests";
+			productReference = 712B8BE519FBA21E000F9325 /* JLY-BaiduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		712B8BC119FBA21E000F9325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rui Zheng";
+				TargetAttributes = {
+					712B8BC819FBA21E000F9325 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					712B8BE419FBA21E000F9325 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 712B8BC819FBA21E000F9325;
+					};
+				};
+			};
+			buildConfigurationList = 712B8BC419FBA21E000F9325 /* Build configuration list for PBXProject "JLY-Baidu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 712B8BC019FBA21E000F9325;
+			productRefGroup = 712B8BCA19FBA21E000F9325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				712B8BC819FBA21E000F9325 /* JLY-Baidu */,
+				712B8BE419FBA21E000F9325 /* JLY-BaiduTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		712B8BC719FBA21E000F9325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B8BDB19FBA21E000F9325 /* Main.storyboard in Resources */,
+				712B8BE019FBA21E000F9325 /* LaunchScreen.xib in Resources */,
+				712B8BDD19FBA21E000F9325 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B8BE319FBA21E000F9325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		712B8BC519FBA21E000F9325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B8BD819FBA21E000F9325 /* SecondViewController.m in Sources */,
+				712B8BD219FBA21E000F9325 /* AppDelegate.m in Sources */,
+				712B8BD519FBA21E000F9325 /* FirstViewController.m in Sources */,
+				712B8BCF19FBA21E000F9325 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B8BE119FBA21E000F9325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B8BEC19FBA21E000F9325 /* JLY_BaiduTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		712B8BE719FBA21E000F9325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 712B8BC819FBA21E000F9325 /* JLY-Baidu */;
+			targetProxy = 712B8BE619FBA21E000F9325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		712B8BD919FBA21E000F9325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712B8BDA19FBA21E000F9325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		712B8BDE19FBA21E000F9325 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712B8BDF19FBA21E000F9325 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		712B8BED19FBA21E000F9325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		712B8BEE19FBA21E000F9325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		712B8BF019FBA21E000F9325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JLY-Baidu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		712B8BF119FBA21E000F9325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JLY-Baidu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		712B8BF319FBA21E000F9325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JLY-BaiduTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLY-Baidu.app/JLY-Baidu";
+			};
+			name = Debug;
+		};
+		712B8BF419FBA21E000F9325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JLY-BaiduTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLY-Baidu.app/JLY-Baidu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		712B8BC419FBA21E000F9325 /* Build configuration list for PBXProject "JLY-Baidu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B8BED19FBA21E000F9325 /* Debug */,
+				712B8BEE19FBA21E000F9325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		712B8BEF19FBA21E000F9325 /* Build configuration list for PBXNativeTarget "JLY-Baidu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B8BF019FBA21E000F9325 /* Debug */,
+				712B8BF119FBA21E000F9325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		712B8BF219FBA21E000F9325 /* Build configuration list for PBXNativeTarget "JLY-BaiduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B8BF319FBA21E000F9325 /* Debug */,
+				712B8BF419FBA21E000F9325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 712B8BC119FBA21E000F9325 /* Project object */;
+}
