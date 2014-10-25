@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BMapKit.h"
 
-@interface FirstViewController : UIViewController
+@interface MapViewController : UIViewController
 
 
 @end

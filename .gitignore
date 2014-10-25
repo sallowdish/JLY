@@ -236,3 +236,7 @@ DerivedData
 
 #GoogleMap
 GoogleMaps*
+
+#BaiduMap
+JLY-Baidu/inc/*
+JLY-Baidu/*bundle
