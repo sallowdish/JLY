@@ -59,7 +59,7 @@
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" title="潔麗雅" id="KJH-vK-Hyl"/>
                     <connections>
-                        <segue destination="gSK-k9-Uja" kind="show" id="y5D-4X-5zX"/>
+                        <segue destination="gSK-k9-Uja" kind="show" identifier="AnnotationToDetailSegue" id="y5D-4X-5zX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>

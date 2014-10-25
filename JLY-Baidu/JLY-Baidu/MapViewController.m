@@ -8,6 +8,8 @@
 
 #import "MapViewController.h"
 
+#define KEEP_GPS_OPEN 0
+
 
 @interface MapViewController () <BMKMapViewDelegate,BMKLocationServiceDelegate>
 @property (strong,nonatomic) BMKMapView* mapView;
@@ -56,7 +58,10 @@
     
 //    _mapView.showsUserLocation = YES;//显示定位图层
 //    [_mapView updateLocationData:userLocation];
-    [_locService stopUserLocationService];
+    _mapView.centerCoordinate=userLocation.location.coordinate;
+    if (!KEEP_GPS_OPEN) {
+        [_locService stopUserLocationService];
+    }
     
 }
 -(void)addPinOnMap:(BMKUserLocation*) userLocation{
@@ -86,6 +91,17 @@
     
     return nil;
     
+}
+
+-(void)mapView:(BMKMapView *)mapView didSelectAnnotationView:(BMKAnnotationView *)view{
+}
+
+-(void)mapView:(BMKMapView *)mapView annotationViewForBubble:(BMKAnnotationView *)view{
+    if ([view.annotation isKindOfClass:[BMKPointAnnotation class]]) {
+        BMKPointAnnotation* pointAnno=view.annotation;
+        NSLog(@"%@",pointAnno.title);
+        [self performSegueWithIdentifier:@"AnnotationToDetailSegue" sender:view];
+    }
 }
 
 - (void)didFailToLocateUserWithError:(NSError *)error{
