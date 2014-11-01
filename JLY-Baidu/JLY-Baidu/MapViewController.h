@@ -10,7 +10,7 @@
 #import "BMapKit.h"
 
 @interface MapViewController : UIViewController
-
+-(void)addPinOnMap:(BMKUserLocation*) userLocation;
 
 @end
 

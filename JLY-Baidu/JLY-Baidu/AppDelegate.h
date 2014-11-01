@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "BMapKit.h"
 
+
+#define KEEP_GPS_OPEN 1
+
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

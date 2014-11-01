@@ -34,35 +34,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="194.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="OHV-yv-VjO">
+                                <rect key="frame" x="-1" y="64" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="iyr-8n-ChV"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstAttribute="centerX" secondItem="OHV-yv-VjO" secondAttribute="centerX" constant="1" id="D0b-L2-6eC"/>
+                            <constraint firstItem="OHV-yv-VjO" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="WbA-fc-OcZ"/>
+                            <constraint firstItem="OHV-yv-VjO" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="bms-Jq-FXu"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" title="潔麗雅" id="KJH-vK-Hyl"/>
                     <connections>
+                        <outlet property="searchDisplayController" destination="21M-IO-tcc" id="LNl-aA-5ON"/>
                         <segue destination="gSK-k9-Uja" kind="show" identifier="AnnotationToDetailSegue" id="y5D-4X-5zX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="21M-IO-tcc">
+                    <connections>
+                        <outlet property="delegate" destination="9pv-A4-QxB" id="J2Q-zA-fm2"/>
+                        <outlet property="searchBar" destination="OHV-yv-VjO" id="2et-ww-g04"/>
+                        <outlet property="searchContentsController" destination="9pv-A4-QxB" id="c2p-dF-xKb"/>
+                        <outlet property="searchResultsDataSource" destination="9pv-A4-QxB" id="m5Q-Wh-kfl"/>
+                        <outlet property="searchResultsDelegate" destination="9pv-A4-QxB" id="Rgq-Ka-Xmo"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1582" y="-357"/>
         </scene>
